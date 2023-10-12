@@ -4,7 +4,7 @@ const db = require('./config/mongoose');
 const session = require('express-session');
 const passport = require('passport');
 const passportLocal = require('./config/passport-local-strategy');
-const port = 5000;
+const port = process.env.PORT || 8000;
 
 
 dotenv.config({ path: 'config/.env' });
