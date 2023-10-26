@@ -1,6 +1,5 @@
 const mongoose = require('mongoose');
-// mongoose.set('strictQuery',true);
-// const dotenv = require('.env');
+
 const DB = 'mongodb+srv://manojpant:Mannu%405972@mannudb.nymicw0.mongodb.net/?retryWrites=true&w=majority';
 
 
@@ -21,22 +20,32 @@ module.exports = mongoose;
 
 
 
+// const { MongoClient, ServerApiVersion } = require('mongodb');
+// const uri = "mongodb+srv://manojpant:Mannu%405972@mannudb.nymicw0.mongodb.net/?retryWrites=true&w=majority";
+// // Create a MongoClient with a MongoClientOptions object to set the Stable API version
+// const client = new MongoClient(uri, {
+//   serverApi: {
+//     version: ServerApiVersion.v1,
+//     strict: true,
+//     deprecationErrors: true,
+//   }
+// });
+// async function run() {
+//   try {
+//     // Connect the client to the server	(optional starting in v4.7)
+//     await client.connect();
+//     // Send a ping to confirm a successful connection
+//     await client.db("admin").command({ ping: 1 });
+//     console.log("Pinged your deployment. You successfully connected to MongoDB!");
+//   } finally {
+//     // Ensures that the client will close when you finish/error
+//     await client.close();
+//   }
+// }
+// run().catch(console.dir);
 
 
 
 
-// dotenv.config({ path: 'config/.env' });
 
-//connecting mongoose with database
-//I stored MONGODB_URI in my system variable for security reason. vable name MONGODB_URI followed by your mongo atlas link
-//for local use you can write this code
-// mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/csvUploader');
 
-// mongoose.connect(DB, {
-// 	useNewUrlParser: true,
-// 	useCreateIndex:true,
-//  	useUnifiedTopology: true,
-// 	useFindAndModify:false
-// }).then(() => {
-// 	console.log('connection successful');
-// }).catch((err) => console.log('no connection',err));
