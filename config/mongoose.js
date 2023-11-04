@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
-const DB = 'mongodb+srv://manojpant:manojpant@mannudb.nymicw0.mongodb.net/?retryWrites=true&w=majority';
-// const DB = 'mongodb+srv://manianil8423:Anil&2000@cluster0.p4pyoxg.mongodb.net/?retryWrites=true&w=majority';
+// const DB = 'mongodb+srv://manojpant:manojpant@mannudb.nymicw0.mongodb.net/?retryWrites=true&w=majority';
+const DB = 'mongodb+srv://manianil8423:Anil&2000@cluster0.p4pyoxg.mongodb.net/?retryWrites=true&w=majority';
 
 
 
