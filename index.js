@@ -15,11 +15,10 @@ app.set('view engine', 'ejs');
 app.set('views', './views');
 app.use(
 	session({
-		//change the secrate before deployment in production mode
-		secret: "hello", // SECRET is stored in the system veriable
-		//if the session data is alredy stored we dont need to rewrite it again and again so this is set to false
+		secret: "hello", // SECRET is stored in the system variable
+		//if the session data is already stored we don't need to rewrite it again and again so this is set to false
 		resave: false,
-		//when the user is not logged in or identity is not establish in that case we dont need to save extra data in
+		//when the user is not logged in or identity is not establish in that case we don't need to save extra data in
 		//session cookie so this is set to false
 		saveUninitialized: false,
 		cookie: { maxAge: 1000 * 60 * 100 },

@@ -1,3 +1,5 @@
-S.No, Name, Email, College, Placement, Contact Number, Batch, DSA Score, WebDev Score, React Score, Interview, Date, Result
-1,Mannu,pantmanoj656@gmail.com,Radhey College,Placed,12344556677,2019,5,5,5,Facebook,2023-10-26,Pending
-2,Ram,ram9857@gmail.com,Ram Mohan College,Placed,9999888777,2022,4,5,4,Adjecti Solutions,2023-10-13,Pending
+S.No, Name, Email, College, Placemnt, Contact Number, Batch, DSA Score, WebDev Score, React Score, Interview, Date, Result
+1,Gaurav ,g.d2015gt@gmail.com,Radhey College,Placed,12344556677,2019,8,9,8,Adjecti Solutions,2023-11-09,Selected
+2,Manoj Pant,pantmanoj656@gmail.com,Abc college,Placed,88833335677,2022,9,9,9,Facebook,2023-11-22,Pending,Google,2023-11-30,On Hold
+3,Akhil,akhil@gmail.com,Gyan Deep College,Not Placed,8889977755,2023,2,2,1
+4,Rakesh,rakesh@gmail.com,Abc college,Placed,8889997772,2022,4,5,5
